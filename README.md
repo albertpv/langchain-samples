@@ -31,7 +31,7 @@ Still 429 error {'error': {'message': 'You exceeded your current quota, please c
 
 
 # prerequisites on HTML sample
-pip3 install bs4
+	pip3 install bs4
 
 # prerequisites on Text Splitter sample
 No prerequisites
