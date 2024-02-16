@@ -1,7 +1,7 @@
 # langchain-samples
-Python code for some of samples at LangChain Chat with Your Data https://learn.deeplearning.ai/
-
-
+Python code for samples at LangChain Chat with Your Data course of https://learn.deeplearning.ai/
+See original github repo https://github.com/ksm26/LangChain-Chat-with-Your-Data/
+![Schema](schema.png)
 # prerequisites on environment
 (Tested on macOS 14.2 Sonoma)
 
@@ -45,3 +45,9 @@ No prerequisites
 # Prerequisites on Retrieval sample
     pip3 install lark
     pip3 install scikit-learn
+# Prerequisites on Question Answering sample
+No prerequisites
+# Prerequisites on Conversational chatbot sample
+    pip3 install pydantic==1.10.8  (it does not work with last pydantic version)
+    pip3 install panel
+    pip3 install docarray
