@@ -51,3 +51,15 @@ No prerequisites
     pip3 install pydantic==1.10.8  (it does not work with last pydantic version)
     pip3 install panel
     pip3 install docarray
+# Prerequisites on testPretrained sample
+    pip3 install torch torchvision
+    pip3 install text-generation
+    BUILD_CUDA_EXT=0 pip install auto-gptq ( reember disable CUDA if non-nvdia GPU)
+    brew install poppler (prerequisite pdf2image)
+    pip3 install pdf2image
+    pip3 install -U sentence-transformers==2.2.2 (important force version to 2.2.2 or we will face : TypeError: INSTRUCTOR._load_sbert_model() got an unexpected keyword argument 'token')
+    pip3 install InstructorEmbedding
+    pip3 install einops
+    (When running on CPU => python3 testPretrained.py --autolaunch --skip-torch-cuda-test --disable-nan-check --no-half --use-cpu all)
+
+
